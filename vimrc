@@ -21,7 +21,6 @@ set smartcase
 set autoread 
 set autowrite
 
-
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -34,11 +33,11 @@ Plugin 'VundleVim/Vundle.vim'
 
 " 추가
 Plugin 'vim-airline/vim-airline'
-Plugin 'scrooloose/nerdtree'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/syntastic'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -49,3 +48,5 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|public$\|log$\|tmp$\|vendor$',
   \ 'file': '\v\.(exe|so|dll)$'
   \ }
+
+let g:ctrlp_match_window = 'top,order:ttb,min:1,max:20,results:30'
