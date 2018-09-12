@@ -20,6 +20,7 @@ set linebreak
 set smartcase 
 set autoread 
 set autowrite
+set ts=2
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
