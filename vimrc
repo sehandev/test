@@ -1,13 +1,6 @@
 set nu 
-set tabstop=4 
-set shiftwidth=4 
-set expandtab 
-set softtabstop=4
 set visualbell  
 set nobackup 
-set cindent  
-set autoindent 
-set smartindent  
 set enc=utf-8 
 set incsearch  
 syntax on 
@@ -25,7 +18,6 @@ highlight Comment term=bold cterm=bold ctermfg=4
 set langmap=ㅁa,ㅠb,ㅊc,ㅇd,ㄷe,ㄹf,ㅎg,ㅗh,ㅑi,ㅓj,ㅏk,ㅣl,ㅡm,ㅜn,ㅐo,ㅔp,ㅂq,ㄱr,ㄴs,ㅅt,ㅕu,ㅍv,ㅈw,ㅌx,ㅛy,ㅋz
 set linebreak 
 set smartcase 
-set smarttab 
 set autoread 
 set autowrite
 
@@ -44,9 +36,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
-Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'Valloric/YouCompleteMe'
 
