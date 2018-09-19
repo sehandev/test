@@ -35,10 +35,10 @@ Plugin 'VundleVim/Vundle.vim'
 " 추가
 Plugin 'vim-airline/vim-airline'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'scrooloose/syntastic'
 Plugin 'nanotech/jellybeans.vim'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'Valloric/YouCompleteMe'
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
